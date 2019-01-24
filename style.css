@@ -40,3 +40,58 @@ body{
   text-align: center;
   line-height: 40px;
 }
+
+.main{
+  height: 55vw;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.main:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.colonna-sx{
+  float: left;
+  height: 50vw;
+  width: 20%;
+  text-align: center;
+  background-color: grey;
+  border-radius: 5px;
+  margin-right: 5%;
+}
+
+.colonna-c{
+  float: left;
+  height: 50vw;
+  width: 50%;
+  text-align: center;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  margin-right: 5%;
+}
+
+.colonna-dx{
+  float: left;
+  height: 50vw;
+  width: 20%;
+  text-align: center;
+  background-color: grey;
+  border-radius: 5px;
+}
+
+
+.footer{
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.fine{
+  width: 100%;
+  text-align: center;
+  line-height: 80px;
+}
