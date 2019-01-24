@@ -1,3 +1,42 @@
-*{
+body{
   background-image: url(background.png);
+}
+
+.pagina{
+  width: 788px;
+  height: 252px;
+  background-color: darkred;
+  margin: auto;
+  padding: 9px;
+  border-radius: 10px;
+  border: 5px solid black;
+}
+.sfondo-ferrari{
+  background-image: url('ferrari.jpg');
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.nav{
+  height: 40px;
+  width: 784px;
+  background-color: darkred;
+  border: 2px solid black;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.nav:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tst{
+  width: 20%;
+  float: left;
+  color: white;
+  text-align: center;
+  line-height: 40px;
 }
