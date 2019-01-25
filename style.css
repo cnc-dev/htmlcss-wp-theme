@@ -4,12 +4,13 @@ body{
 
 .pagina{
   width: 788px;
-  height: 252px;
+  height: 278px;
   background-color: darkred;
   margin: auto;
   padding: 9px;
   border-radius: 10px;
   border: 5px solid black;
+  overflow: scroll;
 }
 .sfondo-ferrari{
   background-image: url('ferrari.jpg');
@@ -42,7 +43,7 @@ body{
 }
 
 .main{
-  height: 55vw;
+  height: 500px;
   margin-top: 20px;
   border-radius: 10px;
 }
@@ -55,31 +56,34 @@ body{
 
 .colonna-sx{
   float: left;
-  height: 50vw;
-  width: 20%;
+  height: 480px;
+  width: 18%;
   text-align: center;
   background-color: grey;
   border-radius: 5px;
   margin-right: 5%;
+  padding: 1%;
 }
 
 .colonna-c{
   float: left;
-  height: 50vw;
-  width: 50%;
+  height: 480px;
+  width: 48%;
   text-align: center;
   background-color: whitesmoke;
   border-radius: 5px;
   margin-right: 5%;
+  padding: 1%;
 }
 
 .colonna-dx{
   float: left;
-  height: 50vw;
-  width: 20%;
+  height: 480px;
+  width: 18%;
   text-align: center;
   background-color: grey;
   border-radius: 5px;
+  padding: 1%;
 }
 
 
